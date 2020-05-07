@@ -19,6 +19,7 @@ def find_even_values(src)
     while element_index < src[row_index].length do
       if element index % 2 == 0 
         return element_index
+      end
       element_index += 1
     end
     row_index += 1
